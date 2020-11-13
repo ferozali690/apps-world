@@ -1,0 +1,18 @@
+.heading-align {
+  text-align: center;
+}
+
+.dashboard-container {
+  margin: 50px auto;
+  width: 500px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.lists {
+  list-style-type: none;
+  font-size: 22px;
+}
+.list-heading {
+  font-weight: bold;
+}
