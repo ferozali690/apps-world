@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Login from "./LoginComponent/Login";
-import DashBoard from "./DashBoardComponent.js/DashBoard";
+import DashBoard from "./DashBoardComponent/DashBoard";
 
 const App = () => {
   return (
-    <div className="App">
+    <div>
       <Router>
         <Switch>
           <Route exact path="/DashBoard" component={DashBoard} />
